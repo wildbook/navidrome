@@ -52,9 +52,9 @@ const musicListActions = {
       display: 'none',
     },
     'button>span:first-child>span, button:not(:first-child)>span:first-child>svg':
-    {
-      color: '#b3b3b3',
-    },
+      {
+        color: '#b3b3b3',
+      },
   },
 }
 
@@ -255,8 +255,8 @@ export default {
       songInfo: {
         fontSize: '0.675rem',
         color: '#b3b3b3',
-        overflow: "hidden",
-        textOverflow: "ellipsis",
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
       },
       player: {
         border: '10px solid blue',
@@ -344,10 +344,10 @@ export default {
         background: 'linear-gradient(transparent, #121212a0)',
         backgroundColor: 'unset',
       },
-    }
+    },
   },
   player: {
     theme: 'dark',
-    stylesheet: require("./darkMinimal.css").default,
+    stylesheet: require('./darkMinimal.css').default,
   },
 }

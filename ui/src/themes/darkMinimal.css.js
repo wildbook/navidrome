@@ -44,4 +44,4 @@ export default `
     max-height: calc(100vh - 215px);
     height: unset !important;
 }
-`;
+`
