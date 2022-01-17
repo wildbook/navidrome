@@ -176,7 +176,7 @@ export default {
       },
       albumContainer: {
         backgroundColor: '#181818',
-        borderRadius: '.5rem',
+        borderRadius: '4px',
         padding: '.75rem',
         transition: 'background-color .3s ease',
         '&:hover': {
