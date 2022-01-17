@@ -355,9 +355,25 @@ export default {
       },
     },
     RaDatagrid: {
+      // Gives datagrid headers a fade instead of a solid color
       headerCell: {
         background: 'linear-gradient(transparent, #121212a0)',
-        backgroundColor: 'unset',
+        backgroundColor: 'transparent',
+      },
+
+      // Removes the default box-shadow from the song list in album view
+      thead: {
+        boxShadow: ['none', important],
+      },
+    },
+    RaBulkActionsToolbar: {
+      // Clips content while animating the "X items selected" banner
+      toolbar: {
+        overflow: 'hidden',
+      },
+      // Adds padding between toolbar items for the "X items selected" banner
+      topToolbar: {
+        gap: '10px',
       },
     },
   },
