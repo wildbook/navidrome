@@ -54,9 +54,9 @@ const musicListActions = {
       display: 'none',
     },
     'button>span:first-child>span, button:not(:first-child)>span:first-child>svg':
-    {
-      color: '#b3b3b3',
-    },
+      {
+        color: '#b3b3b3',
+      },
   },
 }
 
