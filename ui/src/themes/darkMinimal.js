@@ -4,6 +4,8 @@ const greenTones = {
   900: '#008827',
 }
 
+const important = '!important'
+
 // For Album, Playlist
 const musicListActions = {
   padding: '1rem 0',
@@ -52,9 +54,9 @@ const musicListActions = {
       display: 'none',
     },
     'button>span:first-child>span, button:not(:first-child)>span:first-child>svg':
-      {
-        color: '#b3b3b3',
-      },
+    {
+      color: '#b3b3b3',
+    },
   },
 }
 
@@ -123,9 +125,9 @@ export default {
     },
     MuiDrawer: {
       root: {
-        background: '#1E1E1E', // CHANGED
+        background: '#1e1e1e',
         paddingTop: '10px',
-        borderRight: 'solid rgba(255, 255, 255, 0.12) 1px', // ADDED
+        borderRight: 'solid #fff2 1px',
       },
     },
     MuiTableRow: {
@@ -157,9 +159,9 @@ export default {
     },
     MuiAppBar: {
       positionFixed: {
-        backgroundColor: '#1E1E1E !important', // CHANGED
+        backgroundColor: ['#1e1e1e', important],
         boxShadow: 'none',
-        borderBottom: 'solid rgba(255, 255, 255, 0.12) 1px', // ADDED
+        borderBottom: 'solid #fff2 1px',
       },
     },
     NDAlbumGridView: {
@@ -278,12 +280,11 @@ export default {
     },
     RaLayout: {
       root: {
-        // Prevents prematurely showing the scrollbar when showing a page with more content than the viewport fits
-        boxSizing: 'border-box',
+        boxSizing: 'border-box', // Keeps the content padding from messing with scroll
       },
       content: {
-        padding: '0 !important',
-        background: 'linear-gradient(#171717, #121212)', // CHANGED
+        padding: '0 !important', // Forces the content area to fill the available space
+        background: 'linear-gradient(#171717, #121212)',
       },
     },
     RaList: {
