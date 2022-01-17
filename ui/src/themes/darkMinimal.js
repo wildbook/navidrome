@@ -284,7 +284,6 @@ export default {
       },
       content: {
         padding: '0 !important', // Forces the content area to fill the available space
-        background: 'linear-gradient(#171717, #121212)',
       },
     },
     RaList: {
