@@ -104,7 +104,7 @@ export default {
         background: greenTones['500'],
         color: '#fff',
         border: '1px solid transparent',
-        borderRadius: 500,
+        borderRadius: 0,
         '&:hover': {
           background: `${greenTones['900']} !important`,
         },
