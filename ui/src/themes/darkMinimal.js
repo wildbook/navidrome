@@ -332,6 +332,14 @@ export default {
           '.previous-page': {
             marginRight: 8,
           },
+
+          // Removes the < and > on the previous and next page buttons
+          '.next-page > .MuiButton-label > svg.MuiSvgIcon-root': {
+            display: 'none',
+          },
+          '.previous-page > .MuiButton-label > svg.MuiSvgIcon-root': {
+            display: 'none',
+          },
         },
       },
     },
