@@ -348,6 +348,12 @@ export default {
         height: 'initial',
       },
     },
+
+    MuiPaper: {
+      elevation1: {
+        boxShadow: 'none',
+      },
+    },
     RaDatagrid: {
       headerCell: {
         background: 'linear-gradient(transparent, #121212a0)',
