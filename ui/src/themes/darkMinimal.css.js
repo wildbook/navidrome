@@ -9,13 +9,16 @@ export default `
     box-shadow: none !important;
     border: solid #FFFFFF1F !important;
     border-width: 1px 1px 0px 1px !important;
-    border-radius: 10px 10px 0 0;
+    border-radius: 4px 4px 0 0;
 }
 
 .react-jinke-music-player-main .music-player-panel .panel-content .progress-bar-content .audio-main .current-time {
     flex-basis: unset !important;
 }
 
+.react-jinke-music-player-main .music-player-panel .panel-content .player-content .audio-lists-btn {
+    border-radius: 4px !important;
+}
 .progress-bar-content {
     flex-direction: row !important;
     align-items: center !important;
